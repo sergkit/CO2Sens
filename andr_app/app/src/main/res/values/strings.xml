@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">CO2/T/H</string>
+    <string name="title_activity_settings">Настройка</string>
+    <string name="current">Текущие показания</string>
+    <string name="t1">Температура</string>
+    <string name="h1">Влажность</string>
+    <string name="co2">Уровень  CO2</string>
+    <string name="action_settings">Настройка</string>
+    <string name="workHeader">Уведомления</string>
+    <string name="workOn">Включить</string>
+    <string name="messagesHeader">Настройка датчиков</string>
+    <string name="co2Title">CO2</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="year">Год</string>
+    <string name="month">Месяц</string>
+    <string name="week">Неделя</string>
+    <string name="day">День</string>
+    <string name="sens_data">Показания датчиков</string>
+</resources>

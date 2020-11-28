@@ -1,0 +1,47 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/messagesHeader">
+
+        <EditTextPreference
+            app:key="CO2"
+            app:title="CO2, max, ppm"
+            app:dialogMessage="Выберите нужное значение:"
+            app:defaultValue="750"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="H"
+            app:title="Влажность, min,  %"
+            app:dialogMessage="Выберите нужное значение:"
+            app:defaultValue="40"
+            app:useSimpleSummaryProvider="true"/>
+        <EditTextPreference
+            app:key="T"
+            app:title="Температура, min, C"
+            app:dialogMessage="Выберите нужное значение:"
+            app:defaultValue="20"
+            app:useSimpleSummaryProvider="true"
+/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/workHeader">
+
+        <SwitchPreferenceCompat
+            app:key="worker_on"
+            app:title="@string/workOn"
+            app:defaultValue="true"
+            />
+
+        <EditTextPreference
+            app:defaultValue="15"
+            app:dialogMessage="Выберите нужное значение:"
+            app:key="worker_interval"
+            app:summary="Интервал обновления в минутах"
+            app:title="Частота обновления"
+            app:useSimpleSummaryProvider="true"
+            app:dependency="worker_on"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
